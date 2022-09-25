@@ -3,6 +3,11 @@ variable "default_ttl" {
   description = "Default TTL for all records"
 }
 
+variable "domain_name" {
+  type = string
+  description = "Name for the domain"
+}
+
 variable "host_ips" {
   description = "List of hosts and their ips"
   type = map(string)
