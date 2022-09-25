@@ -8,10 +8,6 @@ terraform {
   }
 }
 
-resource "digitalocean_domain" "namelivia" {
-  name = "${var.domain_name}"
-}
-
 resource "digitalocean_record" "a_record" {
   for_each = var.a_records
   domain = "${var.domain_name}"

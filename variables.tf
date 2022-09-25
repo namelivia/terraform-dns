@@ -1,7 +1,3 @@
-variable "domain_name" {
-  type = string
-  description = "Domain Name"
-}
 variable "default_ttl" {
   type = string
   description = "Default TTL for all records"
