@@ -1,7 +1,3 @@
-variable "do_token" {
-  type = string
-  description = "Token for DigitalOcean"
-}
 variable "domain_name" {
   type = string
   description = "Domain Name"
